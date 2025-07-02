@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,12 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Náyra Zanini - Portfólio</title>
   <script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" integrity="sha512-oK3F7rv3KY9MqtLhVZC1XbtlYJS5hyRIr+6iIo1LM6Ah0N6j2e+1EQwOe1p1mT7EReKrAfXH3uV+VekPzSGyqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body id="topo" class="bg-gray-900 text-white font-sans">
 
-  <!-- MENU CENTRALIZADO COM ÍCONES À DIREITA -->
+  <!-- MENU CENTRALIZADO COM ÍCONES SVG À DIREITA -->
   <header class="fixed top-0 w-full bg-gray-900 z-10 border-b border-gray-700">
     <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
       <a href="/nayra.dev-portfolio/" class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">
@@ -23,11 +20,19 @@
         <li><a href="/nayra.dev-portfolio/projetos/shadowplay/" class="text-gray-300 hover:text-yellow-400 transition">Projetos</a></li>
         <li><a href="/nayra.dev-portfolio/estudos/" class="text-gray-300 hover:text-yellow-400 transition">Estudos</a></li>
       </ul>
-      <div class="flex gap-4 text-xl">
-        <a href="https://github.com/nayrazanini" target="_blank" title="GitHub" class="text-gray-300 hover:text-yellow-400"><i class="fa-brands fa-github"></i></a>
-        <a href="mailto:zanini.n@outlook.com.br" title="E-mail" class="text-gray-300 hover:text-yellow-400"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://wa.me/5511981368778" target="_blank" title="WhatsApp" class="text-gray-300 hover:text-yellow-400"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://www.linkedin.com/in/nayra-zanini/" target="_blank" title="LinkedIn" class="text-gray-300 hover:text-yellow-400"><i class="fa-brands fa-linkedin"></i></a>
+      <div class="flex gap-4 text-xl items-center">
+        <a href="https://github.com/nayrazanini" target="_blank" title="GitHub" class="text-gray-300 hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.91.58.11.79-.25.79-.56v-2.03c-3.2.69-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.35.96.1-.75.4-1.26.72-1.55-2.55-.29-5.24-1.28-5.24-5.72 0-1.26.45-2.3 1.19-3.11-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0C17.86 5.45 18.83 5.76 18.83 5.76c.63 1.59.23 2.76.11 3.05.74.81 1.19 1.85 1.19 3.11 0 4.45-2.7 5.42-5.27 5.7.41.35.77 1.03.77 2.08v3.08c0 .31.21.68.8.56A10.99 10.99 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+        <a href="mailto:zanini.n@outlook.com.br" title="E-mail" class="text-gray-300 hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M1.5 4.5h21v15h-21v-15zm10.5 7.5l-10.5-6h21l-10.5 6zm-10.5 6v-10.5l10.5 6 10.5-6v10.5h-21z"/></svg>
+        </a>
+        <a href="https://wa.me/5511981368778" target="_blank" title="WhatsApp" class="text-gray-300 hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M20.52 3.48A11.82 11.82 0 0 0 12 0a11.86 11.86 0 0 0-10.13 17.91L0 24l6.27-1.63A11.86 11.86 0 1 0 20.52 3.48zM12 21.44a9.49 9.49 0 0 1-4.84-1.3l-.35-.21-3.72.97.99-3.63-.23-.37a9.52 9.52 0 1 1 8.15 4.54zm5.36-7.32c-.29-.14-1.73-.85-2-1s-.46-.15-.65.15-.75 1-1 1.19-.36.22-.66.07a7.66 7.66 0 0 1-2.26-1.4A8.5 8.5 0 0 1 9 10.5c.1-.25 0-.55-.1-.78s-.65-1.56-.9-2.12-.48-.5-.65-.51H6.6a1.23 1.23 0 0 0-.9.42A3.78 3.78 0 0 0 5 9.06a6.56 6.56 0 0 0 2.44 4.84 15.43 15.43 0 0 0 6.5 3.37c.45.12.86.19 1.23.12a2.21 2.21 0 0 0 1.51-1.06 1.87 1.87 0 0 0 .14-1.06c-.07-.1-.26-.16-.56-.3z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/nayra-zanini/" target="_blank" title="LinkedIn" class="text-gray-300 hover:text-yellow-400 transition">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.63v-5.52c0-1.32-.03-3-1.83-3s-2.11 1.43-2.11 2.91v5.61H9.24V9h3.49v1.56h.05a3.83 3.83 0 0 1 3.45-1.89c3.69 0 4.37 2.43 4.37 5.58v6.2zM5.34 7.43a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.15 20.45H3.52V9h3.63z"/></svg>
+        </a>
       </div>
     </nav>
   </header>
@@ -133,7 +138,7 @@
 <!-- BOTÃO FLOTANTE FIXO -->
 <a href="#topo" title="Voltar ao topo"
    class="fixed bottom-5 right-5 bg-gradient-to-r from-red-500 to-yellow-400 text-gray-900 font-semibold px-4 py-2 rounded-full shadow-lg hover:opacity-90 transition z-50">
-  ↑ Topo
+  ↑ 
 </a>
 
 </body>
