@@ -18,3 +18,5 @@ Qualidade de software é construída ao longo de todo o processo, mediante cultu
 
 **Artigo produzido por Náyra Zanini**, com base nos aprendizados da disciplina Paradigmas da Engenharia de Software, ministrada pelo Prof. Dr. Marcelo Nogueira durante a Pós-Graduação em Engenharia de Software (UNIP).
 O estudo durante a aula foi feito com o apoio de Inteligência Artificial, por meio de prompts elaborados pelo professor e esse artigo é o resultado.
+
+Acesse em: [nayra.dev](https://nayrazanini.github.io/nayra.dev-portfolio/artigos/aula03.html)
