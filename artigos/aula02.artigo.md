@@ -1,4 +1,4 @@
-# Evolução, Qualidade e Desafios da Engenharia de Software na Era Contemporânea
+# Engenharia de Requisitos: A Base Humana e Estratégica para Soluções Tecnológicas
 
 📅 Publicado em 02/07/2025
 
