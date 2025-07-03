@@ -1,54 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Projetos de Estudo - Náyra Zanini</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-900 text-white font-sans" id="topo">
 
-<header class="fixed top-0 w-full bg-gray-900 z-10 border-b border-gray-700">
-  <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
-    <a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">
-      nayra.dev
-    </a>
-    <ul class="flex gap-6 text-base font-medium justify-center flex-1">
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
-    </ul>
-    <div class="flex gap-4 text-xl items-center">
-      <a class="text-gray-300 hover:text-yellow-400 transition" href="https://github.com/nayrazanini" target="_blank" title="GitHub">
-        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08..."/></svg>
-      </a>
-      <a class="text-gray-300 hover:text-yellow-400 transition" href="mailto:zanini.n@outlook.com.br" title="E-mail">
-        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M1.5 4.5h21v15h-21v-15z..."/></svg>
-      </a>
-      <a class="text-gray-300 hover:text-yellow-400 transition" href="https://wa.me/5511981368778" target="_blank" title="WhatsApp">
-        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M20.52 3.48A11.82 11.82..."/></svg>
-      </a>
-      <a class="text-gray-300 hover:text-yellow-400 transition" href="https://www.linkedin.com/in/nayra-zanini/" target="_blank" title="LinkedIn">
-        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.63v-5.52c0..."/></svg>
-      </a>
+  <!-- MENU -->
+  <header class="fixed top-0 w-full bg-gray-900 z-10 border-b border-gray-700">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
+      <ul class="flex gap-6 text-base font-medium justify-center flex-1">
+        <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
+        <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
+        <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
+      </ul>
+      <div class="flex gap-4 text-xl items-center">
+        <a href="https://github.com/nayrazanini" target="_blank" class="text-gray-300 hover:text-yellow-400 transition" title="GitHub">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .5C5.65..."/></svg>
+        </a>
+        <a href="mailto:zanini.n@outlook.com.br" class="text-gray-300 hover:text-yellow-400 transition" title="E-mail">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M1.5 4.5h21v15h-21v-15z"/></svg>
+        </a>
+        <a href="https://wa.me/5511981368778" target="_blank" class="text-gray-300 hover:text-yellow-400 transition" title="WhatsApp">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M20.52 3.48..."/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/nayra-zanini/" target="_blank" class="text-gray-300 hover:text-yellow-400 transition" title="LinkedIn">
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.63v-5.52c0..."/></svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="max-w-5xl mx-auto pt-24 px-4 sm:px-8">
+    <h1 class="text-3xl font-bold text-yellow-400 mb-4">Projetos de Estudo</h1>
+    <p class="text-gray-300 mb-6">
+      Nesta seção estão reunidos projetos desenvolvidos com foco no aprendizado e prática dos fundamentos da programação e desenvolvimento de software. 
+      Cada exercício ou atividade aqui tem o objetivo de consolidar habilidades adquiridas durante minha transição de carreira e aprofundamento técnico.
+    </p>
+
+    <!-- Link que expande o projeto -->
+    <button onclick="document.getElementById('projeto-classificador').classList.toggle('hidden')" class="text-yellow-400 hover:underline mb-6">
+      ➤ Ver projeto: Classificador de Nível de Herói
+    </button>
+
+    <!-- Conteúdo que será mostrado/ocultado -->
+    <div id="projeto-classificador" class="hidden mt-6">
+      <iframe src="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/classificador-heroi.html" class="w-full h-[1600px] border border-gray-700 rounded"></iframe>
     </div>
-  </nav>
-</header>
-
-<h1 class="text-3xl font-bold text-yellow-400 mb-4">Projetos de Estudo</h1>
-<p class="text-gray-300 mb-6">
-  Nesta seção estão reunidos projetos desenvolvidos com foco no aprendizado e prática dos fundamentos da programação e desenvolvimento de software. 
-  Cada exercício ou atividade aqui tem o objetivo de consolidar habilidades adquiridas durante minha transição de carreira e aprofundamento técnico.
-</p>
-
-<!-- Link que expande o projeto -->
-<button onclick="document.getElementById('projeto-classificador').classList.toggle('hidden')" class="text-yellow-400 hover:underline">
-  ➤ Ver projeto: Classificador de Nível de Herói
-</button>
-
-<!-- Conteúdo que será mostrado/ocultado -->
-<div id="projeto-classificador" class="hidden mt-6">
-  <iframe src="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/classificador-heroi.html" class="w-full h-[1600px] border border-gray-700 rounded"></iframe>
-</div>
+  </main>
+</body>
+</html>
 
