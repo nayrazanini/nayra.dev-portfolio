@@ -34,4 +34,4 @@ Este portfólio tem sido um espaço de aprendizado constante e foi criado para d
 
 Este portfólio é mantido com disciplina, curiosidade e propósito.
 
-Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/nayra-zanini) ou explore mais em [nayra.dev](https://nayrazanini.github.io/nayra.dev-portfolio/)).
+Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/nayra-zanini) ou explore mais em [nayra.dev](https://nayrazanini.github.io/nayra.dev-portfolio/) :).
