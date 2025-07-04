@@ -2,22 +2,15 @@
 
 <section class="max-w-4xl mx-auto mt-16 px-4 space-y-6 text-gray-300 leading-relaxed">
   <p>
-      Me chamo <strong class="text-yellow-400">Náyra Zanini</strong> e trago minha experiência administrativa como base para minha transição e aprofundamento na área de <strong class="text-yellow-400">tecnologia</strong>.
-      Como sempre busquei a otimização de processos, suporte técnico e eficiente a sistemas e pessoas, me encontrei na área de Engenharia de Software. :)
-  </p>
-  <p>
-      Elaborei uma rotina de estudos que engloba: <strong>Pós-graduação em Engenharia de Software</strong>,
-      aperfeiçoar o <strong>inglês diariamente</strong>, estudar <strong>JavaScript</strong>, <strong>SQL</strong> e me preparar para as certificações
-      <strong>Scrum Fundamentals e Professional</strong>.
-  </p>
-  <p>
-    Tenho paixão por <strong>automatização de tarefas repetitivas do meu dia a dia</strong> e, por tal motivo, desenvolvi um perfil curioso, disciplinado e que se desenvolve rápido para aprender novas ferramentas.
-  </p>
-  <p>
-    Busco contribuir com projetos onde eu possa unir <strong> minha visão administrativa e negócios</strong>, <strong>mentalidade ágil</strong> e
-    <strong>compromisso com a melhoria contínua</strong>, com a área de Engenharia de Software.
-  </p>
- <p>Este portfólio tem me ensinado MUITO em diversos aspectos e sua construção tem por objetivo demonstrar o que estou estudando e meu dia a dia em busca do meu autodesenvolvimento.</p>
+      Me chamo <strong class="text-yellow-400">Náyra Zanini</strong> e trago minha experiência administrativa como base para minha transição e aprofundamento na área de <strong class="text-yellow-400">tecnologia</strong>. Sempre busquei a otimização de processos, o suporte técnico e o atendimento eficiente a sistemas e pessoas, e dessa forma que me encontrei na <strong class="text-yellow-400">Engenharia de Software</strong>.
+
+Elaborei uma rotina de estudos estruturada, que engloba: Pós-graduação em Engenharia de Software, prática diária de inglês, estudos em JavaScript e SQL, além da preparação para as certificações Scrum Fundamentals e Professional.
+
+Tenho paixão por automatizar tarefas repetitivas do dia a dia. Por isso, desenvolvi um perfil curioso, disciplinado e com facilidade para aprender novas ferramentas.
+
+Busco contribuir com projetos nos quais eu possa unir minha visão administrativa e de negócios à mentalidade ágil e ao compromisso com a melhoria contínua, sempre com foco em soluções práticas e colaborativas.
+
+Este portfólio tem sido um espaço de aprendizado constante e foi criado para documentar meus estudos, projetos e experiências em busca do meu autodesenvolvimento.
      
 </section>
 
