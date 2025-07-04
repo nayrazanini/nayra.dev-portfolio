@@ -1,0 +1,64 @@
+
+<div class="p-4 text-gray-300 space-y-6">
+  <p>
+    Desenvolvido como parte da Formação em Lógica de Programação da DIO, este projeto tem como objetivo classificar um herói
+    com base em sua quantidade de experiência (XP). É um exercício de fixação de estruturas básicas da programação, como variáveis,
+    condicionais e operadores.
+  </p>
+
+  <div>
+    <h2 class="text-lg font-semibold text-yellow-400 mb-2">Objetivo</h2>
+    <p>
+      Exibir o nível de um personagem com base na quantidade de XP, usando estruturas condicionais em JavaScript.
+    </p>
+  </div>
+
+  <div>
+    <h2 class="text-lg font-semibold text-yellow-400 mb-2">Requisitos Utilizados</h2>
+    <ul class="list-disc list-inside">
+      <li>Variáveis</li>
+      <li>Operadores</li>
+      <li>Condicionais (if / else if / else)</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2 class="text-lg font-semibold text-yellow-400 mb-2">Código do Projeto</h2>
+    <pre class="bg-gray-900 text-sm text-green-300 p-4 rounded border border-gray-700 overflow-x-auto"><code>
+// Classificador de Herói
+let nome = "Spartacus"
+let quantidadeXp = 7634
+let nivel = ""
+
+if (quantidadeXp < 1000) {
+    nivel = "Ferro"
+} else if (quantidadeXp <= 2000) {
+    nivel = "Bronze"
+} else if (quantidadeXp <= 5000) {
+    nivel = "Prata"
+} else if (quantidadeXp <= 7000) {
+    nivel = "Ouro"
+} else if (quantidadeXp <= 8000) {
+    nivel = "Platina"
+} else if (quantidadeXp <= 9000) {
+    nivel = "Ascendente"
+} else if (quantidadeXp <= 10000) {
+    nivel = "Imortal"
+} else {
+    nivel = "Radiante"
+}
+
+console.log("O Herói de nome " + nome + " está no nível de " + nivel)
+    </code></pre>
+  </div>
+
+  <div>
+    <h2 class="text-lg font-semibold text-yellow-400 mb-2">Imagem do Projeto</h2>
+    <img src="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/heroi-preview.png" alt="Imagem do código no VS Code" class="rounded shadow border border-gray-700 max-w-full">
+  </div>
+
+  <div>
+    <h2 class="text-lg font-semibold text-yellow-400 mb-2">Resultado Esperado</h2>
+    <p>"O Herói de nome <strong>Spartacus</strong> está no nível de <strong>Platina</strong>"</p>
+  </div>
+</div>
