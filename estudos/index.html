@@ -13,22 +13,22 @@
   <nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
     <a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
 
-    <!-- Menu Desktop -->
-    <ul class="hidden md:flex gap-6 text-base font-medium">
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
-    </ul>
+       <!-- BOTÃO MENU HAMBÚRGUER -->
+    <button id="menu-toggle" class="md:hidden text-yellow-400 focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+  </nav>
 
-   <!-- BOTÃO MENU HAMBÚRGUER -->
-<div class="md:hidden flex items-center justify-end flex-1">
-  <button id="menu-toggle" class="text-yellow-400 focus:outline-none">
-    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"/>
-    </svg>
-  </button>
-</div>
+  <!-- Menu Mobile -->
+  <div id="mobile-menu" class="hidden md:hidden px-6 py-4 space-y-2">
+    <a href="/nayra.dev-portfolio/artigos/" class="block text-gray-300 hover:text-yellow-400">Artigos</a>
+    <a href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/" class="block text-gray-300 hover:text-yellow-400">Projetos</a>
+    <a href="/nayra.dev-portfolio/estudos/" class="block text-gray-300 hover:text-yellow-400">Estudos</a>
+  </div>
+</header>
 
   <!-- Menu Mobile -->
   <div id="mobile-menu" class="hidden md:hidden px-6 py-4 space-y-2">
