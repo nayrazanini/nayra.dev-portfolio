@@ -1,4 +1,3 @@
-
 <div class="p-4 text-gray-300 space-y-6">
   <p>
     Desenvolvido como parte da Formação em Lógica de Programação da DIO, este projeto tem como objetivo classificar um herói
@@ -32,17 +31,17 @@ let nivel = ""
 
 if (quantidadeXp < 1000) {
     nivel = "Ferro"
-} else if (quantidadeXp <= 2000) {
+} else if (quantidadeXp >= 1001 && quantidadeXp <= 2000) {
     nivel = "Bronze"
-} else if (quantidadeXp <= 5000) {
+} else if (quantidadeXp >= 2001 && quantidadeXp <= 5000) {
     nivel = "Prata"
-} else if (quantidadeXp <= 7000) {
+} else if (quantidadeXp >= 5001 && quantidadeXp <= 7000) {
     nivel = "Ouro"
-} else if (quantidadeXp <= 8000) {
+} else if (quantidadeXp >= 7001 && quantidadeXp <= 8000) {
     nivel = "Platina"
-} else if (quantidadeXp <= 9000) {
+} else if (quantidadeXp >= 8001 && quantidadeXp <= 9000) {
     nivel = "Ascendente"
-} else if (quantidadeXp <= 10000) {
+} else if (quantidadeXp >= 9001 && quantidadeXp <= 10000) {
     nivel = "Imortal"
 } else {
     nivel = "Radiante"
