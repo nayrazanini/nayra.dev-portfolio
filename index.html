@@ -1,63 +1,69 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Náyra Zanini - Portfólio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Náyra Zanini - Portfólio</title>
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-black text-white font-sans break-words antialiased" id="topo">
-
 <!-- NAVBAR -->
 <header class="fixed top-0 w-full bg-black z-10 border-b border-gray-700">
-  <nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
-    <a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
-
-    <!-- Menu Desktop -->
-    <ul class="hidden md:flex gap-6 text-base font-medium">
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
-    </ul>
-
-    <!-- BOTÃO MENU HAMBÚRGUER -->
-    <button id="menu-toggle" class="md:hidden text-yellow-400 focus:outline-none">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-    </button>
-  </nav>
-
-  <!-- Menu Mobile -->
-  <div id="mobile-menu" class="hidden md:hidden px-6 py-4 space-y-2">
-    <a href="/nayra.dev-portfolio/artigos/" class="block text-gray-300 hover:text-yellow-400">Artigos</a>
-    <a href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/" class="block text-gray-300 hover:text-yellow-400">Projetos</a>
-    <a href="/nayra.dev-portfolio/estudos/" class="block text-gray-300 hover:text-yellow-400">Estudos</a>
-  </div>
+<nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+<a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
+<!-- Menu Desktop -->
+<ul class="hidden md:flex gap-6 text-base font-medium">
+<li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
+<li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
+<li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
+</ul>
+<!-- BOTÃO MENU HAMBÚRGUER -->
+<button class="md:hidden text-yellow-400 focus:outline-none" id="menu-toggle">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</nav>
+<!-- Menu Mobile -->
+<div class="hidden md:hidden px-6 py-4 space-y-2" id="mobile-menu">
+<a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/artigos/">Artigos</a>
+<a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a>
+<a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/estudos/">Estudos</a>
+</div>
 </header>
-
 <!-- MAIN -->
 <main class="pt-32 max-w-6xl mx-auto px-4 sm:px-6">
-  <section class="flex flex-col md:flex-row items-center gap-8 mb-12 text-center md:text-left">
-    <img alt="Foto de Náyra Zanini" class="w-48 h-auto rounded-2xl shadow-lg border border-gray-700" src="/nayra.dev-portfolio/nayra-foto-perfil.jpg"/>
-    <div>
-      <p class="text-base md:text-lg tracking-wide text-yellow-400 mb-2">
-        <em class="text-sm">cultivar.</em><strong>Disciplina</strong> •
-        <em class="text-sm">evoluir.</em><strong>Habilidades</strong> •
-        <em class="text-sm">aplicar.</em><strong>Aprendizado</strong>
-      </p>
-      <h1 class="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">Olá, eu sou a Náyra Zanini</h1>
-      <p class="text-base text-gray-300 leading-relaxed mb-4">Mais de 10 anos de experiência na área administrativa, com forte atuação na otimização de processos, suporte a pessoas e sistemas.</p>
-      <p class="text-base text-gray-300 leading-relaxed mb-4">Ao longo dessa trajetória, desenvolvi habilidades que hoje direcionam minha transição de carreira para a Engenharia de Software.</p>
-      <p class="text-base text-gray-300 leading-relaxed mb-4">Atualmente, sigo um plano de estudos estruturado: Pós em Engenharia de Software, inglês diário, JavaScript, SQL e certificação Scrum.</p>
-      <p class="text-base text-gray-300 leading-relaxed mb-4">Gosto de automatizar tarefas, identificar gargalos, traduzir necessidades e colaborar com o time.</p>
-      <p class="text-base text-gray-300 leading-relaxed">Curiosa, disciplinada e focada no que quero.</p>
-    </div>
-  </section>
-
-  <!-- EM FOCO -->
-  <section class="mt-12 text-center">
+<section class="flex flex-col md:flex-row items-center gap-8 mb-12 text-center md:text-left">
+<img alt="Foto de Náyra Zanini" class="w-48 h-auto rounded-2xl shadow-lg border border-gray-700" src="/nayra.dev-portfolio/nayra-foto-perfil.jpg"/>
+<div>
+<p class="text-base md:text-lg tracking-wide text-yellow-400 mb-2">
+<em class="text-sm">cultivar.</em><strong>Disciplina</strong> •
+  <em class="text-sm">evoluir.</em><strong>Habilidades</strong> •
+  <em class="text-sm">aplicar.</em><strong>Aprendizado</strong>
+</p>
+<h1 class="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">
+  Olá, eu sou a Náyra Zanini
+</h1>
+<p class="text-base text-gray-300 leading-relaxed mb-4">
+  Me chamo <strong class="text-yellow-400">Náyra Zanini</strong> e trago minha experiência administrativa como base para minha transição e aprofundamento na área de <strong class="text-yellow-400">tecnologia</strong>. Sempre busquei a otimização de processos, o suporte técnico e o atendimento eficiente a sistemas e pessoas, e dessa forma que me encontrei na <strong class="text-yellow-400">Engenharia de Software</strong>.
+</p>
+<p class="text-base text-gray-300 leading-relaxed mb-4">
+  Elaborei uma rotina de estudos estruturada, que engloba: Pós-graduação em Engenharia de Software, prática diária de inglês, estudos em JavaScript e SQL, além da preparação para as certificações Scrum Fundamentals e Professional.
+</p>
+<p class="text-base text-gray-300 leading-relaxed mb-4">
+  Tenho paixão por automatizar tarefas repetitivas do dia a dia. Por isso, desenvolvi um perfil curioso, disciplinado e com facilidade para aprender novas ferramentas.
+</p>
+<p class="text-base text-gray-300 leading-relaxed mb-4">
+  Busco contribuir com projetos nos quais eu possa unir minha visão administrativa e de negócios à mentalidade ágil e ao compromisso com a melhoria contínua, sempre com foco em soluções práticas e colaborativas.
+</p>
+<p class="text-base text-gray-300 leading-relaxed">
+  Este portfólio tem sido um espaço de aprendizado constante e foi criado para documentar meus estudos, projetos e experiências em busca do meu autodesenvolvimento.
+</p>
+</div>
+</section>
+<!-- EM FOCO -->
+<section class="mt-12 text-center">
 <h2 class="text-xl font-semibold mb-4 bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">Em foco</h2>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-2 text-gray-300">
 <div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
@@ -86,9 +92,8 @@
 </div>
 </div>
 </section>
-
-  <!-- LINHA DO TEMPO -->
-  <section class="mt-16 max-w-4xl mx-auto px-4">
+<!-- LINHA DO TEMPO -->
+<section class="mt-16 max-w-4xl mx-auto px-4">
 <h2 class="text-2xl font-bold mb-8 text-center bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">🕒 Linha do Tempo</h2>
 <div class="relative border-l border-gray-700 ml-4">
 <div class="mb-10 ml-6">
@@ -124,21 +129,17 @@
 </div>
 </section>
 </main>
-
 <!-- CONTATOS NO RODAPÉ -->
 <footer class="mt-16 p-6 text-center text-sm text-gray-400 border-t border-gray-700">
-  <div class="flex flex-wrap justify-center gap-6">
-    <a href="https://github.com/nayrazanini" target="_blank" class="hover:text-yellow-400">GitHub</a>
-    <a href="mailto:zanini.n@outlook.com.br" class="hover:text-yellow-400">E-mail</a>
-    <a href="https://wa.me/5511981368778" target="_blank" class="hover:text-yellow-400">WhatsApp</a>
-    <a href="https://www.linkedin.com/in/nayra-zanini/" target="_blank" class="hover:text-yellow-400">LinkedIn</a>
-  </div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="hover:text-yellow-400" href="https://github.com/nayrazanini" target="_blank">GitHub</a>
+<a class="hover:text-yellow-400" href="mailto:zanini.n@outlook.com.br">E-mail</a>
+<a class="hover:text-yellow-400" href="https://wa.me/5511981368778" target="_blank">WhatsApp</a>
+<a class="hover:text-yellow-400" href="https://www.linkedin.com/in/nayra-zanini/" target="_blank">LinkedIn</a>
+</div>
 </footer>
-
-
 <!-- BOTÃO TOPO -->
-<a href="#topo" title="Voltar ao topo" class="fixed bottom-5 right-5 bg-gradient-to-r from-red-500 to-yellow-400 text-gray-900 font-semibold px-4 py-2 rounded-full shadow-lg hover:opacity-90 transition z-50">↑</a>
-
+<a class="fixed bottom-5 right-5 bg-gradient-to-r from-red-500 to-yellow-400 text-gray-900 font-semibold px-4 py-2 rounded-full shadow-lg hover:opacity-90 transition z-50" href="#topo" title="Voltar ao topo">↑</a>
 <script>
   const toggleBtn = document.getElementById("menu-toggle");
   const mobileMenu = document.getElementById("mobile-menu");
@@ -149,7 +150,6 @@
 </script>
 </body>
 </html>
-
 
 
 
