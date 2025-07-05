@@ -1,4 +1,4 @@
-# Pós-Graduação
+# Pós-Graduação - Engenharia de Software
 
 Esta seção reúne os principais conteúdos desenvolvidos ao longo da minha especialização em Engenharia de Software. Aqui estão organizadas as disciplinas estudadas, com resumos, conceitos-chave, artefatos produzidos e reflexões sobre a aplicação prática de cada tema.
 
