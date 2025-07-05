@@ -1,6 +1,6 @@
 # Metodologia DevOps
 
-A disciplina aborda a cultura DevOps, suas origens, evolução e impacto nas organizações. O foco está em integrar equipes de desenvolvimento e operações para acelerar entregas e aumentar a confiabilidade dos sistemas.
+A disciplina aborda a cultura DevOps, suas origens, evolução e impacto nas organizações. O foco está em integrar equipes de desenvolvimento e operações para acelerar entregas e aumentar a confiabilidade dos sistemas. As aulas possuem muita prática e nos ensinam a aplicar na empresa que trabalhamos. Identificamos pontos de melhoria em algo que está no nosso dia a dia.
 
 ## Conteúdo abordado
 
