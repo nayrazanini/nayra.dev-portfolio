@@ -37,8 +37,14 @@
   </div>
 </header>
 
-<main class="max-w-4xl mx-auto p-6">
-  <!-- Seção: Pós Graduação -->
+<main class="pt-24 max-w-3xl mx-auto p-6">
+  <h1 class="text-2xl font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text mb-6">Estudos</h1>
+  <p class="text-gray-300 mb-6">
+    Nesta seção compartilho estudos realizados em diferentes contextos: disciplinas da pós-graduação, cursos complementares,
+    práticas de lógica de programação e projetos com foco em aprendizagem prática.
+  </p>
+
+  <!-- Seção: Pós-Graduação -->
   <section class="mb-12">
     <h2 class="text-xl text-yellow-400 font-semibold mb-4">Pós-Graduação</h2>
 
@@ -52,6 +58,14 @@
     <details class="mb-6 bg-gray-800 rounded shadow border border-gray-700">
       <summary onclick="carregarProjeto('modelagem-visual.html')" class="cursor-pointer py-3 px-4 text-lg font-semibold text-white hover:text-yellow-400 transition">
         Modelagem Visual de Software
+      </summary>
+      <div id="projeto-container" class="p-4"></div>
+    </details>
+  </section>
+
+  <details class="mb-6 bg-gray-800 rounded shadow border border-gray-700">
+      <summary onclick="carregarProjeto('projeto-software.html')" class="cursor-pointer py-3 px-4 text-lg font-semibold text-white hover:text-yellow-400 transition">
+        Projeto de Software
       </summary>
       <div id="projeto-container" class="p-4"></div>
     </details>
