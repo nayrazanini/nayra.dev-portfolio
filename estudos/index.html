@@ -45,29 +45,28 @@
   </p>
 
   <!-- Seção: Pós-Graduação -->
-  <section class="mb-12">
-    <h2 class="text-xl text-yellow-400 font-semibold mb-4">Pós-Graduação</h2>
+  <section class="mb-12 space-y-3">
+    <h2 class="text-lg text-yellow-400 font-semibold mb-2">Pós-Graduação</h2>
 
-    <details class="mb-6 bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('paradigmas.html')" class="cursor-pointer py-3 px-4 text-lg font-semibold text-white hover:text-yellow-400 transition">
+    <details class="bg-gray-800 rounded shadow border border-gray-700">
+      <summary onclick="carregarProjeto('paradigmas-software.html', 'paradigmas-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
         Paradigmas da Engenharia de Software
       </summary>
-      <div id="projeto-container" class="p-4"></div>
+      <div id="paradigmas-container" class="p-4"></div>
     </details>
 
-    <details class="mb-6 bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('modelagem-visual.html')" class="cursor-pointer py-3 px-4 text-lg font-semibold text-white hover:text-yellow-400 transition">
+    <details class="bg-gray-800 rounded shadow border border-gray-700">
+      <summary onclick="carregarProjeto('modelagem-software.html', 'modelagem-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
         Modelagem Visual de Software
       </summary>
-      <div id="projeto-container" class="p-4"></div>
+      <div id="modelagem-container" class="p-4"></div>
     </details>
-  </section>
 
-  <details class="mb-6 bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('projeto-software.html')" class="cursor-pointer py-3 px-4 text-lg font-semibold text-white hover:text-yellow-400 transition">
+    <details class="bg-gray-800 rounded shadow border border-gray-700">
+      <summary onclick="carregarProjeto('projeto-software.html', 'projeto-software-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
         Projeto de Software
       </summary>
-      <div id="projeto-container" class="p-4"></div>
+      <div id="projeto-software-container" class="p-4"></div>
     </details>
   </section>
 
@@ -75,14 +74,15 @@
   <section class="mb-12">
     <h2 class="text-xl text-yellow-400 font-semibold mb-4">Projetos de Estudo</h2>
 
-    <details class="mb-6 bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('projeto-heroi.html')" class="cursor-pointer py-3 px-4 text-lg font-semibold text-white hover:text-yellow-400 transition">
+    <details class="bg-gray-800 rounded shadow border border-gray-700">
+      <summary onclick="carregarProjeto('projeto-heroi.html', 'projeto-heroi')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
         Classificador de Herói
       </summary>
-      <div id="projeto-container" class="p-4"></div>
+      <div id="projeto-heroi" class="p-4"></div>
     </details>
   </section>
 </main>
+
 
 <!-- RODAPÉ COM CONTATOS EM LINHA -->
 <footer class="mt-16 p-6 text-center text-sm text-gray-400 border-t border-gray-700">
@@ -101,22 +101,22 @@
     mobileMenu.classList.toggle("hidden");
   });
 </script>
-<script>
-  function carregarProjeto(arquivo) {
+  <script>
+  function carregarProjeto(arquivo, id) {
     fetch(arquivo)
       .then(res => res.text())
       .then(html => {
-        document.getElementById('projeto-container').innerHTML = html;
+        document.getElementById(id).innerHTML = html;
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
       })
       .catch(err => {
-        document.getElementById('projeto-container').innerHTML = "<p class='text-red-400'>Erro ao carregar o projeto.</p>";
+        document.getElementById(id).innerHTML = "<p class='text-red-400'>Erro ao carregar o projeto.</p>";
       });
-
-    // Scroll até o projeto carregado
-    const container = document.getElementById('projeto-container');
-    container.scrollIntoView({ behavior: 'smooth' });
   }
+</script>
 
+
+<script>
   function toggleZoom(img) {
     img.classList.toggle("scale-150");   
     img.classList.toggle("z-50");
