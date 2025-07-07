@@ -57,23 +57,24 @@ Entre 25 e 29.9	Sobrepeso
 
 */
 
-function calcularIMC (peso, altura){
-    let IMC = (peso/(altura*altura))
-    if (IMC < 18.5){
-        classificacao = ("Abaixo do peso")
-    } else if (IMC >=18.5 && IMC <=24.9){
-        classificacao = ("Peso Normal")
-    } else if (IMC >=25 && IMC <=29.9){
-        classificacao = ("Sobrepeso")
-    } else{
-        classificacao= ("Obesidade")
+function calcularIMC(peso, altura) {
+    let IMC = peso / (altura * altura)
+    let classificacao = ""
+
+    if (IMC < 18.5) {
+        classificacao = "Abaixo do peso"
+    } else if (IMC >= 18.5 && IMC <= 24.9) {
+        classificacao = "Peso Normal"
+    } else if (IMC >= 25 && IMC <= 29.9) {
+        classificacao = "Sobrepeso"
+    } else {
+        classificacao = "Obesidade"
     }
 
+    console.log("Seu IMC é: " + classificacao)
 }
 
-calcularIMC (60, 1.65)
-    console.log("Seu IMC É " + classificacao)
-calcularIMC (30, 1.80)
-    console.log("Seu IMC É " + classificacao)
-calcularIMC (90, 1.50)
-    console.log("Seu IMC É " + classificacao)
+
+calcularIMC(60, 1.65) // Seu IMC é: Peso Normal
+calcularIMC(30, 1.80) // Seu IMC é: Abaixo do peso
+calcularIMC(90, 1.50) // Seu IMC é: Obesidade
