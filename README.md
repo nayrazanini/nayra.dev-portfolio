@@ -18,7 +18,7 @@ Este portfólio tem sido um espaço de aprendizado constante e foi criado para d
 ## Estrutura do Portfólio
 
 - `index.html` — Página inicial com apresentação profissional  
-- `estudos/` — Registro de disciplinas cursadas na pós-graduação  
+- `estudos/` — Registro de disciplinas cursadas na pós-graduação, cursos complementares e práticas de lógica de programação.
 - `artigos/` — Análises e reflexões sobre os conteúdos estudados  
 - `projetos/` — Projetos práticos com propósito educativo e técnico  
 
