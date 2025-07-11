@@ -24,7 +24,12 @@
     }
     
 
+        //exemplo
         let resultado = calcularNivel (30,20)
+
+        // resultado esperado
         console.log (resultado)
+
+        //O herói tem saldo de 10 e está no nível Bronze
         
     

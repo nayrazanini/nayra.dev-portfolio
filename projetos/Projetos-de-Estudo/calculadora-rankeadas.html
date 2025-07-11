@@ -4,76 +4,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Calculadora de Partidas Rankeadas</title>
+  <title>Calculadora Rankeadas</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      padding: 40px;
+      background-color: #0f0f0f;
+      color: #f8f8f8;
       text-align: center;
+      padding: 40px;
+    }
+    .container {
+      background-color: #1f1f1f;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
     }
     h1 {
-      color: #333;
+      color: #FFD700;
     }
     input {
       padding: 10px;
-      margin: 8px;
       font-size: 16px;
-      width: 150px;
+      width: 40%;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
     }
     button {
       padding: 10px 20px;
       font-size: 16px;
+      margin-top: 15px;
       background-color: #4CAF50;
       color: white;
       border: none;
+      border-radius: 5px;
       cursor: pointer;
-      margin-top: 15px;
     }
     button:hover {
-      background-color: #45a049;
+      background-color: #3e8e41;
     }
     #resultado {
-      margin-top: 30px;
-      font-size: 20px;
-      color: #222;
+      margin-top: 25px;
+      font-size: 18px;
       font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>🏆 Calculadora de Partidas Rankeadas</h1>
-  <input type="number" id="vitorias" placeholder="Vitórias" />
-  <input type="number" id="derrotas" placeholder="Derrotas" />
-  <br>
-  <button onclick="calcularNivel()">Calcular Nível</button>
-  <div id="resultado"></div>
+  <div class="container">
+    <h1>🏆 Calculadora de Partidas Rankeadas</h1>
+    <input type="number" id="vitorias" placeholder="Vitórias" />
+    <input type="number" id="derrotas" placeholder="Derrotas" />
+    <br>
+    <button onclick="mostrarResultado()">Calcular Nível</button>
+    <div id="resultado"></div>
+  </div>
 
   <script>
-    function calcularNivel() {
-      let vitorias = parseInt(document.getElementById('vitorias').value);
-      let derrotas = parseInt(document.getElementById('derrotas').value);
-      let saldo = vitorias - derrotas;
+    function calcularNivel(vitorias, derrotas) {
+      let saldoRankeadas = vitorias - derrotas;
       let nivel = "";
 
-      if (saldo < 10) {
+      if (saldoRankeadas < 10) {
         nivel = "Ferro";
-      } else if (saldo >= 11 && saldo <= 20) {
+      } else if (saldoRankeadas >= 11 && saldoRankeadas <= 20) {
         nivel = "Bronze";
-      } else if (saldo >= 21 && saldo <= 50) {
+      } else if (saldoRankeadas >= 21 && saldoRankeadas <= 50) {
         nivel = "Prata";
-      } else if (saldo >= 51 && saldo <= 80) {
+      } else if (saldoRankeadas >= 51 && saldoRankeadas <= 80) {
         nivel = "Ouro";
-      } else if (saldo >= 81 && saldo <= 90) {
+      } else if (saldoRankeadas >= 81 && saldoRankeadas <= 90) {
         nivel = "Diamante";
-      } else if (saldo >= 91 && saldo <= 100) {
+      } else if (saldoRankeadas >= 91 && saldoRankeadas <= 100) {
         nivel = "Lendário";
       } else {
         nivel = "Imortal";
       }
 
-      document.getElementById('resultado').textContent =
-        `O herói tem saldo de ${saldo} e está no nível ${nivel}`;
+      return `O herói tem saldo de ${vitorias} e está no nível ${nivel}`;
+    }
+
+    function mostrarResultado() {
+      const vitorias = parseInt(document.getElementById('vitorias').value);
+      const derrotas = parseInt(document.getElementById('derrotas').value);
+
+      if (isNaN(vitorias) || isNaN(derrotas)) {
+        document.getElementById('resultado').textContent = "Preencha os dois campos corretamente.";
+        return;
+      }
+
+      const resultado = calcularNivel(vitorias, derrotas);
+      document.getElementById('resultado').textContent = resultado;
     }
   </script>
 </body>
