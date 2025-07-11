@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Partidas Rankeadas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    input {
+      padding: 10px;
+      margin: 8px;
+      font-size: 16px;
+      width: 150px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #resultado {
+      margin-top: 30px;
+      font-size: 20px;
+      color: #222;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>🏆 Calculadora de Partidas Rankeadas</h1>
+  <input type="number" id="vitorias" placeholder="Vitórias" />
+  <input type="number" id="derrotas" placeholder="Derrotas" />
+  <br>
+  <button onclick="calcularNivel()">Calcular Nível</button>
+  <div id="resultado"></div>
+
+  <script>
+    function calcularNivel() {
+      let vitorias = parseInt(document.getElementById('vitorias').value);
+      let derrotas = parseInt(document.getElementById('derrotas').value);
+      let saldo = vitorias - derrotas;
+      let nivel = "";
+
+      if (saldo < 10) {
+        nivel = "Ferro";
+      } else if (saldo >= 11 && saldo <= 20) {
+        nivel = "Bronze";
+      } else if (saldo >= 21 && saldo <= 50) {
+        nivel = "Prata";
+      } else if (saldo >= 51 && saldo <= 80) {
+        nivel = "Ouro";
+      } else if (saldo >= 81 && saldo <= 90) {
+        nivel = "Diamante";
+      } else if (saldo >= 91 && saldo <= 100) {
+        nivel = "Lendário";
+      } else {
+        nivel = "Imortal";
+      }
+
+      document.getElementById('resultado').textContent =
+        `O herói tem saldo de ${saldo} e está no nível ${nivel}`;
+    }
+  </script>
+</body>
+</html>
