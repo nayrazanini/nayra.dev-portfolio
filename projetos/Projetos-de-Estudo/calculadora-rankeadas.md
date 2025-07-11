@@ -1,6 +1,4 @@
-/*
- 
-Instruções para entrega
+## PROJETO DE LÓGICA - DIO 
  # 2️⃣ Calculadora de partidas Rankeadas
 **O Que deve ser utilizado**
 
