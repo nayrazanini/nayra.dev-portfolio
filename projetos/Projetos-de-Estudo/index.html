@@ -58,46 +58,38 @@
   <section class="mb-12">
     <h2 class="text-xl text-yellow-400 font-semibold mb-4">Projetos de Lógica da DIO - JavaScript</h2>
 
-    <details class="bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('projeto-heroi.html', 'projeto-heroi')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
-        Classificador de Herói
-      </summary>
-      <div id="projeto-heroi" class="p-4"></div>
-    </details>
+  <details class="bg-gray-800 rounded shadow border border-gray-700">
+  <summary onclick="carregarProjeto('projetos/Projetos-de-Estudo/calculadora-rankeadas.html', 'projeto-calculadora')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
+    Calculadora de Partidas Rankeadas - JavaScript
+  </summary>
+  <div id="projeto-calculadora" class="p-4 text-gray-100 text-sm leading-relaxed">
+    <p><strong>Projeto criado durante o curso de Lógica de Programação da DIO.</strong></p>
 
-   <details>
-  <summary>▼ Calculadora Rankeadas</summary>
-  <div style="padding: 1rem;">
-    <p>💡 <strong>Projeto criado durante o curso de Lógica de Programação da DIO</strong>, com o objetivo de praticar os principais conceitos fundamentais da linguagem JavaScript.</p>
-    
-    <p><strong>📌 Desafio proposto:</strong> Desenvolver uma <em>Calculadora de Partidas Rankeadas</em>, utilizando:</p>
-    <ul>
-      <li>Variáveis</li>
-      <li>Operadores</li>
-      <li>Laços de repetição</li>
-      <li>Estruturas de decisão</li>
-      <li>Funções</li>
+    <p class="mt-2">
+      O desafio consiste em criar uma função que receba como parâmetro a quantidade de vitórias e derrotas de um jogador, calcule o saldo (vitórias - derrotas), e determine o nível do herói com base no seguinte critério:
+    </p>
+
+    <ul class="list-disc list-inside mt-2">
+      <li>Saldo &lt; 10 → Ferro</li>
+      <li>11 a 20 → Bronze</li>
+      <li>21 a 50 → Prata</li>
+      <li>51 a 80 → Ouro</li>
+      <li>81 a 90 → Diamante</li>
+      <li>91 a 100 → Lendário</li>
+      <li>&gt;= 101 → Imortal</li>
     </ul>
 
-    <p><strong>🎯 Objetivo:</strong> Criar uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, calcula o saldo (vitórias - derrotas) e retorna o nível do herói com base nesse saldo.</p>
+    <p class="mt-2 italic">Exemplo de saída: "O Herói tem de saldo de <strong>{saldoVitorias}</strong> e está no nível <strong>{nivel}</strong>"</p>
 
-    <p><strong>🏆 Classificação:</strong></p>
-    <ul>
-      <li>Menor que 10 → Ferro</li>
-      <li>Entre 11 e 20 → Bronze</li>
-      <li>Entre 21 e 50 → Prata</li>
-      <li>Entre 51 e 80 → Ouro</li>
-      <li>Entre 81 e 90 → Diamante</li>
-      <li>Entre 91 e 100 → Lendário</li>
-      <li>Maior ou igual a 101 → Imortal</li>
-    </ul>
-
-    <p><strong>🔁 Saída esperada:</strong> <br>
-    <code>O Herói tem de saldo de {saldoVitorias} e está no nível de {nivel}</code></p>
-
-    <p>👉 <a href="projetos/Projetos-de-Estudo/-calculadora-rankeadas.html" target="_blank">Clique aqui para abrir o projeto</a></p>
+    <p class="mt-4">
+      🔗 <a href="projetos/Projetos-de-Estudo/calculadora-rankeadas.html" target="_blank" class="text-yellow-400 hover:underline">
+        Abrir o projeto em nova aba
+      </a>
+    </p>
   </div>
 </details>
+
+
     
 <!-- RODAPÉ COM CONTATOS EM LINHA -->
 <footer class="mt-16 p-6 text-center text-sm text-gray-400 border-t border-gray-700">
