@@ -17,12 +17,10 @@
 
 ## 🚀 Foco Técnico Atual - Carreira em Desenvolvimento
 
-Meu estudo e prática estão centrados no ecossistema do SQL Server, com ênfase especial em T-SQL para ir além das consultas básicas.
+Meu estudo e prática estão centrados no ecossistema do SQL Server, com ênfase em T-SQL para ir além das consultas básicas.
 
 * **Sistema Gerenciador de Banco de Dados:** `SQL Server`
 * **Linguagem Principal:** `T-SQL (Transact-SQL)`
-    * Desenvolvimento de scripts procedurais com variáveis, controle de fluxo (`IF/ELSE`) e tratamento de erros (`TRY/CATCH`).
-    * Criação e manutenção de `Stored Procedures` e `Functions` para automatizar tarefas e encapsular regras de negócio.
 * **Conceitos Fundamentais:** `Modelagem de Dados Relacional`, `Otimização de Consultas (Query Tuning)` e `Controle de Transações`.
 
 ## Estrutura do Portfólio
