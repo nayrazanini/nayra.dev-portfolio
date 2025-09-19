@@ -1,187 +1,163 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Náyra Zanini - Portfólio</title>
-<script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Náyra Zanini - Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-black text-white font-sans break-words antialiased" id="topo">
-<!-- NAVBAR -->
-<header class="fixed top-0 w-full bg-black z-10 border-b border-gray-700">
-<nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
-<a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
-<!-- Menu Desktop -->
-<ul class="hidden md:flex gap-6 text-base font-medium">
-<li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
-<li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
-<li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
-</ul>
-<!-- BOTÃO MENU HAMBÚRGUER -->
-<button class="md:hidden text-yellow-400 focus:outline-none" id="menu-toggle">
-<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
-<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg>
-</button>
-</nav>
-<!-- Menu Mobile -->
-<div class="hidden md:hidden px-6 py-4 space-y-2" id="mobile-menu">
-<a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/artigos/">Artigos</a>
-<a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a>
-<a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/estudos/">Estudos</a>
-</div>
-</header>
-<!-- MAIN -->
-<main class="pt-32 max-w-6xl mx-auto px-4 sm:px-6">
-<section class="flex flex-col md:flex-row items-center gap-8 mb-12 text-center md:text-left">
-<img alt="Foto de Náyra Zanini" class="w-48 h-auto rounded-2xl shadow-lg border border-gray-700" src="/nayra.dev-portfolio/nayra-foto-perfil.jpg"/>
-<div>
-<p class="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">
-<em class="text-sm">cultivar.</em><strong>Disciplina</strong> •
-  <em class="text-sm">evoluir.</em><strong>Habilidades</strong> •
-  <em class="text-sm">aplicar.</em><strong>Aprendizado</strong>
-</p>
-<p class="text-base text-gray-300 leading-relaxed mb-4">
-    Me chamo <strong class="text-yellow-400">Náyra Zanini</strong> e utilizo minha experiência administrativa como um diferencial na minha carreira em tecnologia. Meu foco em otimização de processos me direcionou para a área de banco de dados, onde a lógica e a estrutura se encontram para criar soluções de negócios eficientes.
-</p>
-<p class="text-base text-gray-300 leading-relaxed mb-4">
-    Atualmente, atuo como <strong class="text-yellow-400">Programadora Jr.</strong>, com foco em soluções de banco de dados utilizando <strong class="text-yellow-400">SQL Server</strong>. Sigo em constante aprofundamento através da Pós-graduação em Engenharia de Software e estudos direcionados em T-SQL, modelagem de dados e otimização de performance.
-</p>
-<p class="text-base text-gray-300 leading-relaxed">
-    Este portfólio documenta minha jornada de aprendizado contínuo, com projetos, estudos e artigos que refletem meu desenvolvimento na área.
-</p>
-</div>
-</section>
-<!-- EM FOCO -->
-<section class="mt-12 text-center">
-<h2 class="text-xl font-semibold mb-4 bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">Em foco</h2>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-2 text-gray-300">
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-<h3 class="font-semibold text-base text-white mb-1">Estudando</h3>
-<p class="text-sm">Pós em Engenharia de Software pela UNIP</p>
-</div>
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-    <h3 class="font-semibold text-base text-white mb-1">Foco Profissional</h3>
-    <p class="text-sm">Desenvolvimento de banco de dados com SQL Server e T-SQL</p>
-</div>
-
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-    <h3 class="font-semibold text-base text-white mb-1">Aprendizado Contínuo</h3>
-    <p class="text-sm">T-SQL, modelagem de dados e otimização de performance</p>
-</div>
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-<h3 class="font-semibold text-base text-white mb-1">Estudo Contínuo</h3>
-<p class="text-sm">Inglês com apoio de Inteligência Artificial e técnicas como shadowing</p>
-</div>
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-<h3 class="font-semibold text-base text-white mb-1">Aprendizado</h3>
-<p class="text-sm">SQL, estrutura de dados e lógica de programação</p>
-</div>
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-<h3 class="font-semibold text-base text-white mb-1">Certificações</h3>
-<p class="text-sm">Preparação para Scrum Fundamentals e Professional</p>
-</div>
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-<h3 class="font-semibold text-base text-white mb-1">Objetivo</h3>
-<p class="text-sm">Atuar com análise, modelagem e soluções em TI</p>
-</div>
-<div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
-<h3 class="font-semibold text-base text-white mb-1">Habilidade</h3>
-<p class="text-sm">Resolver problemas com criatividade e me desenvolver com autonomia</p>
-</div>
-</div>
-</section>
-<!-- LINHA DO TEMPO -->
-
-<section class="mt-16 max-w-4xl mx-auto px-4">
-    <h2 class="text-2xl font-bold mb-8 text-center bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">🕒 Linha do Tempo</h2>
-    
-    <div class="relative border-l border-gray-700 ml-4">
-
-        <div class="mb-10 ml-6">
-            <span class="absolute flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full -left-3 ring-8 ring-black">
-                <svg class="w-2.5 h-2.5 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4Z M0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+    <header class="fixed top-0 w-full bg-black z-10 border-b border-gray-700">
+        <nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+            <a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
+            <ul class="hidden md:flex gap-6 text-base font-medium">
+                <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
+                <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
+                <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
+            </ul>
+            <button class="md:hidden text-yellow-400 focus:outline-none" id="menu-toggle">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                    <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
                 </svg>
-            </span>
-            <h3 class="text-lg font-semibold text-white">2025 – Presente</h3>
-            <p class="text-gray-400 whitespace-normal">Início da carreira profissional como Programadora Jr., com foco em desenvolvimento de soluções de banco de dados utilizando SQL Server e T-SQL.</p>
+            </button>
+        </nav>
+        <div class="hidden md:hidden px-6 py-4 space-y-2" id="mobile-menu">
+            <a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/artigos/">Artigos</a>
+            <a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a>
+            <a class="block text-gray-300 hover:text-yellow-400" href="/nayra.dev-portfolio/estudos/">Estudos</a>
         </div>
+    </header>
 
-        <div class="mb-10 ml-6">
-            <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
-            <h3 class="text-lg font-semibold text-white">2025</h3>
-            <p class="text-gray-400 whitespace-normal">Cursando Pós-Graduação em Engenharia de Software pela UNIP, com foco em modelagem, requisitos e boas práticas de desenvolvimento.</p>
+    <main class="pt-32 max-w-6xl mx-auto px-4 sm:px-6">
+        <section class="flex flex-col md:flex-row items-center gap-8 mb-12 text-center md:text-left">
+            <img alt="Foto de Náyra Zanini" class="w-48 h-auto rounded-2xl shadow-lg border border-gray-700" src="/nayra.dev-portfolio/nayra-foto-perfil.jpg"/>
+            <div>
+                <p class="text-3xl sm:text-4xl font-bold mb-4 bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">
+                    <em class="text-sm">cultivar.</em><strong>Disciplina</strong> •
+                    <em class="text-sm">evoluir.</em><strong>Habilidades</strong> •
+                    <em class="text-sm">aplicar.</em><strong>Aprendizado</strong>
+                </p>
+                <p class="text-base text-gray-300 leading-relaxed mb-4">
+                    Me chamo <strong class="text-yellow-400">Náyra Zanini</strong> e utilizo minha experiência administrativa como um diferencial na minha carreira em tecnologia. Meu foco em otimização de processos me direcionou para a área de banco de dados, onde a lógica e a estrutura se encontram para criar soluções de negócios eficientes.
+                </p>
+                <p class="text-base text-gray-300 leading-relaxed mb-4">
+                    Atualmente, atuo como <strong class="text-yellow-400">Programadora Jr.</strong>, com foco em soluções de banco de dados utilizando <strong class="text-yellow-400">SQL Server</strong>. Sigo em constante aprofundamento através da Pós-graduação em Engenharia de Software e estudos direcionados em T-SQL, modelagem de dados e otimização de performance.
+                </p>
+                <p class="text-base text-gray-300 leading-relaxed">
+                    Este portfólio documenta minha jornada de aprendizado contínuo, com projetos, estudos e artigos que refletem meu desenvolvimento na área.
+                </p>
+            </div>
+        </section>
+
+        <section class="mt-12 text-center">
+            <h2 class="text-xl font-semibold mb-4 bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">Em foco</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-2 text-gray-300">
+                <div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
+                    <h3 class="font-semibold text-base text-white mb-1">Posição Atual</h3>
+                    <p class="text-sm">Programadora Jr. com foco em SQL Server</p>
+                </div>
+                <div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
+                    <h3 class="font-semibold text-base text-white mb-1">Tecnologia Principal</h3>
+                    <p class="text-sm">T-SQL para Stored Procedures e Functions</p>
+                </div>
+                <div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
+                    <h3 class="font-semibold text-base text-white mb-1">Aprimoramento</h3>
+                    <p class="text-sm">Pós-graduanda em Engenharia de Software (UNIP)</p>
+                </div>
+                <div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
+                    <h3 class="font-semibold text-base text-white mb-1">Conceitos-Chave</h3>
+                    <p class="text-sm">Modelagem de Dados e Otimização de Consultas</p>
+                </div>
+                <div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
+                    <h3 class="font-semibold text-base text-white mb-1">Diferencial</h3>
+                    <p class="text-sm">Visão de processos de negócio aplicada à tecnologia</p>
+                </div>
+                <div class="bg-gray-800 p-3 sm:p-4 rounded-lg shadow border border-gray-700">
+                    <h3 class="font-semibold text-base text-white mb-1">Metodologia</h3>
+                    <p class="text-sm">Mentalidade Ágil e melhoria contínua</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-16 max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text">🕒 Linha do Tempo</h2>
+            <div class="relative border-l border-gray-700 ml-4">
+                
+                <div class="mb-10 ml-6">
+                    <span class="absolute flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full -left-3 ring-8 ring-black">
+                        <svg class="w-2.5 h-2.5 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4Z M0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                        </svg>
+                    </span>
+                    <h3 class="text-lg font-semibold text-white">2025 – Presente</h3>
+                    <p class="text-gray-400 whitespace-normal">Início da carreira profissional como Programadora Jr., com foco em desenvolvimento de soluções de banco de dados utilizando SQL Server e T-SQL.</p>
+                </div>
+
+                <div class="mb-10 ml-6">
+                    <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
+                    <h3 class="text-lg font-semibold text-white">2025</h3>
+                    <p class="text-gray-400 whitespace-normal">Cursando Pós-Graduação em Engenharia de Software pela UNIP, com foco em modelagem, requisitos e boas práticas de desenvolvimento.</p>
+                </div>
+
+                <div class="mb-10 ml-6">
+                    <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
+                    <h3 class="text-lg font-semibold text-white">2023-2024</h3>
+                    <p class="text-gray-400 whitespace-normal">Conclusão do curso Tecnólogo em Análise e Desenvolvimento de Sistemas pela UNIP.</p>
+                </div>
+
+                <div class="mb-10 ml-6">
+                    <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
+                    <h3 class="text-lg font-semibold text-white">2019</h3>
+                    <p class="text-gray-400 whitespace-normal">Intercâmbio em Brighton - UK, estudando Inglês pela LSI - Language Studies International.</p>
+                </div>
+
+                <div class="mb-10 ml-6">
+                    <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
+                    <h3 class="text-lg font-semibold text-white">2016 – 2022</h3>
+                    <p class="text-gray-400 whitespace-normal">Pausa nos estudos para me dedicar aos cuidados com minha avó, o que me ensinou muito sobre responsabilidade, empatia e propósito.</p>
+                </div>
+
+                <div class="mb-10 ml-6">
+                    <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
+                    <h3 class="text-lg font-semibold text-white">2015 – 2025</h3>
+                    <p class="text-gray-400 whitespace-normal">Atuação como Assistente Administrativo Jr. na UNIP, com foco em suporte técnico, organização de processos e uso de sistemas internos.</p>
+                </div>
+
+                <div class="mb-10 ml-6">
+                    <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
+                    <h3 class="text-lg font-semibold text-white">2014</h3>
+                    <p class="text-gray-400 whitespace-normal">Finalizei o Bacharelado em Administração com Ênfase em TI pela FIAP.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-16 p-6 text-center text-sm text-gray-400 border-t border-gray-700">
+        <div class="flex flex-wrap justify-center gap-6">
+            <a class="hover:text-yellow-400" href="https://github.com/nayrazanini" target="_blank">GitHub</a>
+            <a class="hover:text-yellow-400" href="mailto:zanini.n@outlook.com.br">E-mail</a>
+            <a class="hover:text-yellow-400" href="https://wa.me/5511981368778" target="_blank">WhatsApp</a>
+            <a class="hover:text-yellow-400" href="https://www.linkedin.com/in/nayra-zanini/" target="_blank">LinkedIn</a>
         </div>
-
-        <div class="mb-10 ml-6">
-            <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
-            <h3 class="text-lg font-semibold text-white">2023-2024</h3>
-            <p class="text-gray-400 whitespace-normal">Conclusão do curso Tecnólogo em Análise e Desenvolvimento de Sistemas pela UNIP.</p>
+        <div class="w-full mt-4 flex justify-center">
+            <a href="https://www.hitwebcounter.com" target="_blank" aria-label="Contador de visitas">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=21277290&style=0007&nbdigits=3&type=page&initCount=0" alt="Contador de visitas" class="h-5" style="background: transparent;" />
+            </a>
         </div>
+    </footer>
 
-        <div class="mb-10 ml-6">
-            <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
-            <h3 class="text-lg font-semibold text-white">2019</h3>
-            <p class="text-gray-400 whitespace-normal">Intercâmbio em Brighton - UK, estudando Inglês pela LSI - Language Studies International.</p>
-        </div>
+    <a class="fixed bottom-5 right-5 bg-gradient-to-r from-red-500 to-yellow-400 text-gray-900 font-semibold px-4 py-2 rounded-full shadow-lg hover:opacity-90 transition z-50" href="#topo" title="Voltar ao topo">↑</a>
 
-        <div class="mb-10 ml-6">
-            <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
-            <h3 class="text-lg font-semibold text-white">2016 – 2022</h3>
-            <p class="text-gray-400 whitespace-normal">Pausa nos estudos para me dedicar aos cuidados com minha avó, o que me ensinou muito sobre responsabilidade, empatia e propósito.</p>
-        </div>
+    <script>
+        const toggleBtn = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
 
-        <div class="mb-10 ml-6">
-            <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
-            <h3 class="text-lg font-semibold text-white">2015 – 2025</h3>
-            <p class="text-gray-400 whitespace-normal">Atuação como Assistente Administrativo Jr. na UNIP, com foco em suporte técnico, organização de processos e uso de sistemas internos.</p>
-        </div>
-
-        <div class="mb-10 ml-6">
-            <span class="absolute -left-3 top-1.5 w-3 h-3 bg-yellow-400 rounded-full"></span>
-            <h3 class="text-lg font-semibold text-white">2014</h3>
-            <p class="text-gray-400 whitespace-normal">Finalizei o Bacharelado em Administração com Ênfase em TI pela FIAP.</p>
-        </div>
-    </div>
-
-</section>
-</main>
-<!-- CONTATOS NO RODAPÉ -->
-<footer class="mt-16 p-6 text-center text-sm text-gray-400 border-t border-gray-700">
-<div class="flex flex-wrap justify-center gap-6">
-<a class="hover:text-yellow-400" href="https://github.com/nayrazanini" target="_blank">GitHub</a>
-<a class="hover:text-yellow-400" href="mailto:zanini.n@outlook.com.br">E-mail</a>
-<a class="hover:text-yellow-400" href="https://wa.me/5511981368778" target="_blank">WhatsApp</a>
-<a class="hover:text-yellow-400" href="https://www.linkedin.com/in/nayra-zanini/" target="_blank">LinkedIn</a>
-</div>
-<div class="w-full mt-4 flex justify-center">
-  <a href="https://www.hitwebcounter.com" target="_blank" aria-label="Contador de visitas">
-    <img 
-      src="https://hitwebcounter.com/counter/counter.php?page=21277290&style=0007&nbdigits=3&type=page&initCount=0" 
-      alt="Contador de visitas" 
-      class="h-5" 
-      style="background: transparent;" />
-  </a>
-</div>
-</footer>
-
-  
-<!-- BOTÃO TOPO -->
-<a class="fixed bottom-5 right-5 bg-gradient-to-r from-red-500 to-yellow-400 text-gray-900 font-semibold px-4 py-2 rounded-full shadow-lg hover:opacity-90 transition z-50" href="#topo" title="Voltar ao topo">↑</a>
-<script>
-  const toggleBtn = document.getElementById("menu-toggle");
-  const mobileMenu = document.getElementById("mobile-menu");
-
-  toggleBtn.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
-  });
-</script>
+        toggleBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
 </body>
 </html>
-
-
 
 
 
