@@ -1,128 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Estudos</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Estudos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-black text-white font-sans break-words antialiased" id="topo">
 
-<!-- NAVBAR -->
 <header class="fixed top-0 w-full bg-black z-10 border-b border-gray-700">
-  <nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
-    <a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
-
-    <!-- Menu Desktop -->
-    <ul class="hidden md:flex gap-6 text-base font-medium">
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
-      <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
-    </ul>
-
-    <!-- BOTÃO MENU HAMBÚRGUER -->
-    <button id="menu-toggle" class="md:hidden text-yellow-400 focus:outline-none">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-    </button>
-  </nav>
-
-  <!-- Menu Mobile -->
-  <div id="mobile-menu" class="hidden md:hidden px-6 py-4 space-y-2">
-    <a href="/nayra.dev-portfolio/artigos/" class="block text-gray-300 hover:text-yellow-400">Artigos</a>
-    <a href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/" class="block text-gray-300 hover:text-yellow-400">Projetos</a>
-    <a href="/nayra.dev-portfolio/estudos/" class="block text-gray-300 hover:text-yellow-400">Estudos</a>
-  </div>
+    <nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16">
+        <a class="text-lg font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text" href="/nayra.dev-portfolio/">nayra.dev</a>
+        <ul class="hidden md:flex gap-6 text-base font-medium">
+            <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/artigos/">Artigos</a></li>
+            <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/">Projetos</a></li>
+            <li><a class="text-gray-300 hover:text-yellow-400 transition" href="/nayra.dev-portfolio/estudos/">Estudos</a></li>
+        </ul>
+        <button id="menu-toggle" class="md:hidden text-yellow-400 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden px-6 py-4 space-y-2">
+        <a href="/nayra.dev-portfolio/artigos/" class="block text-gray-300 hover:text-yellow-400">Artigos</a>
+        <a href="/nayra.dev-portfolio/projetos/Projetos-de-Estudo/" class="block text-gray-300 hover:text-yellow-400">Projetos</a>
+        <a href="/nayra.dev-portfolio/estudos/" class="block text-gray-300 hover:text-yellow-400">Estudos</a>
+    </div>
 </header>
 
 <main class="pt-24 max-w-3xl mx-auto p-6">
-  <h1 class="text-2xl font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text mb-6">Estudos</h1>
-  <p class="text-gray-300 mb-6">
-    Nesta seção compartilho estudos realizados em diferentes contextos: disciplinas da pós-graduação, cursos complementares e
-    práticas de lógica de programação em JavaScript e desenvolvimento em SQL.
-  </p>
+    <h1 class="text-2xl font-bold bg-gradient-to-r from-red-500 to-yellow-400 text-transparent bg-clip-text mb-6">Estudos</h1>
+    <p class="text-gray-300 mb-6">
+        Nesta seção compartilho estudos realizados em diferentes contextos: disciplinas da pós-graduação, cursos complementares e
+        práticas de lógica de programação em JavaScript e desenvolvimento em SQL.
+    </p>
 
-  <!-- Seção: Pós-Graduação -->
-  <section class="mb-12 space-y-3">
-    <h2 class="text-lg text-yellow-400 font-semibold mb-2">Pós-Graduação</h2>
+    <section class="mb-12 space-y-3">
+        <h2 class="text-lg text-yellow-400 font-semibold mb-2">Pós-Graduação</h2>
 
-    <details class="bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('paradigmas-software.html', 'paradigmas-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
-        Paradigmas da Engenharia de Software
-      </summary>
-      <div id="paradigmas-container" class="p-4"></div>
-    </details>
+        <details class="bg-gray-800 rounded shadow border border-gray-700">
+            <summary onclick="carregarProjeto('paradigmas-software.html', 'paradigmas-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
+                Paradigmas da Engenharia de Software
+            </summary>
+            <div id="paradigmas-container" class="p-4"></div>
+        </details>
 
-    <details class="bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('modelagem-software.html', 'modelagem-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
-        Modelagem Visual de Software
-      </summary>
-      <div id="modelagem-container" class="p-4"></div>
-    </details>
+        <details class="bg-gray-800 rounded shadow border border-gray-700">
+            <summary onclick="carregarProjeto('modelagem-software.html', 'modelagem-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
+                Modelagem Visual de Software
+            </summary>
+            <div id="modelagem-container" class="p-4"></div>
+        </details>
 
-    <details class="bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('projeto-software.html', 'projeto-software-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
-        Projeto de Software
-      </summary>
-      <div id="projeto-software-container" class="p-4"></div>
-    </details>
+        <details class="bg-gray-800 rounded shadow border border-gray-700">
+            <summary onclick="carregarProjeto('projeto-software.html', 'projeto-software-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
+                Projeto de Software
+            </summary>
+            <div id="projeto-software-container" class="p-4"></div>
+        </details>
 
-    <details class="bg-gray-800 rounded shadow border border-gray-700">
-      <summary onclick="carregarProjeto('metodologia.html', 'metodologia-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
-        Metodologia DevOps
-      </summary>
-      <div id="metodologia-container" class="p-4"></div>
-    </details>
-  </section>
+        <details class="bg-gray-800 rounded shadow border border-gray-700">
+            <summary onclick="carregarProjeto('metodologia.html', 'metodologia-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
+                Metodologia DevOps
+            </summary>
+            <div id="metodologia-container" class="p-4"></div>
+        </details>
 
+        <details class="bg-gray-800 rounded shadow border border-gray-700">
+            <summary onclick="carregarProjeto('gestao-projetos.html', 'gestao-projetos-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
+                Gestão de Projeto de Software
+            </summary>
+            <div id="gestao-projetos-container" class="p-4"></div>
+        </details>
 
-<!-- RODAPÉ COM CONTATOS EM LINHA -->
-<footer class="mt-16 p-6 text-center text-sm text-gray-400 border-t border-gray-700">
-  <div class="flex flex-wrap justify-center gap-6">
-    <a href="https://github.com/nayrazanini" target="_blank" class="hover:text-yellow-400">GitHub</a>
-    <a href="mailto:zanini.n@outlook.com.br" class="hover:text-yellow-400">E-mail</a>
-    <a href="https://wa.me/5511981368778" target="_blank" class="hover:text-yellow-400">WhatsApp</a>
-    <a href="https://www.linkedin.com/in/nayra-zanini/" target="_blank" class="hover:text-yellow-400">LinkedIn</a>
-  </div>
-</footer>
+        <details class="bg-gray-800 rounded shadow border border-gray-700">
+            <summary onclick="carregarProjeto('metricas-software.html', 'metricas-software-container')" class="cursor-pointer py-3 px-4 text-base font-medium text-white hover:text-yellow-400 transition">
+                Métricas de Software
+            </summary>
+            <div id="metricas-software-container" class="p-4"></div>
+        </details>
+        
+    </section>
 
-<script>
-  const toggleBtn = document.getElementById("menu-toggle");
-  const mobileMenu = document.getElementById("mobile-menu");
-  toggleBtn.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
-  });
-</script>
-  <script>
-  function carregarProjeto(arquivo, id) {
-    fetch(arquivo)
-      .then(res => res.text())
-      .then(html => {
-        document.getElementById(id).innerHTML = html;
-        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-      })
-      .catch(err => {
-        document.getElementById(id).innerHTML = "<p class='text-red-400'>Erro ao carregar o projeto.</p>";
-      });
-  }
-</script>
+    <footer class="mt-16 p-6 text-center text-sm text-gray-400 border-t border-gray-700">
+        <div class="flex flex-wrap justify-center gap-6">
+            <a href="https://github.com/nayrazanini" target="_blank" class="hover:text-yellow-400">GitHub</a>
+            <a href="mailto:zanini.n@outlook.com.br" class="hover:text-yellow-400">E-mail</a>
+            <a href="https://wa.me/5511981368778" target="_blank" class="hover:text-yellow-400">WhatsApp</a>
+            <a href="https://www.linkedin.com/in/nayra-zanini/" target="_blank" class="hover:text-yellow-400">LinkedIn</a>
+        </div>
+    </footer>
 
+    <script>
+        const toggleBtn = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+        toggleBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+    <script>
+        function carregarProjeto(arquivo, id) {
+            // Fecha todos os outros <details> abertos antes de carregar o novo
+            document.querySelectorAll('details').forEach((detail) => {
+                if (detail.querySelector('#' + id) === null) {
+                    detail.removeAttribute('open');
+                }
+            });
 
-<script>
-  function toggleZoom(img) {
-    img.classList.toggle("scale-150");   
-    img.classList.toggle("z-50");
-    img.classList.toggle("cursor-zoom-out");
-    img.classList.toggle("transition");
-    img.classList.toggle("duration-300");
-    img.classList.toggle("rounded-xl");
-    img.classList.toggle("shadow-2xl");
-    img.classList.toggle("border-yellow-400");
-    img.classList.toggle("border-4");
-  }
-</script>
+            const container = document.getElementById(id);
+            // Se o conteúdo já foi carregado, não faz nada para evitar recarregar
+            if (container.innerHTML.trim() !== "") {
+                return;
+            }
+
+            fetch(arquivo)
+                .then(res => {
+                    if (!res.ok) {
+                        throw new Error('Arquivo não encontrado.');
+                    }
+                    return res.text();
+                })
+                .then(html => {
+                    container.innerHTML = html;
+                    container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                })
+                .catch(err => {
+                    container.innerHTML = "<p class='text-red-400'>Ops! O conteúdo para esta disciplina ainda não foi adicionado.</p>";
+                });
+        }
+    </script>
+
+    <script>
+        function toggleZoom(img) {
+            img.classList.toggle("scale-150");
+            img.classList.toggle("z-50");
+            img.classList.toggle("cursor-zoom-out");
+            img.classList.toggle("transition");
+            img.classList.toggle("duration-300");
+            img.classList.toggle("rounded-xl");
+            img.classList.toggle("shadow-2xl");
+            img.classList.toggle("border-yellow-400");
+            img.classList.toggle("border-4");
+        }
+    </script>
 
 </body>
 </html>
