@@ -95,4 +95,4 @@ Essas características precisam ser **planejadas desde o início**, pois influen
 
 Todos os mapas, quadros e elementos visuais desenvolvidos durante a disciplina estão disponíveis no quadro do Miro:
 
-🔗 [Acessar Artefatos no Miro](https://miro.com/welcomeonboard/alZqcUtZeW8yQkI5aFlxUWpvSFFZNW1xQm5EUEtRS200VUcybVQwK29WbjdTM0tHNjBiS1hTZ0JndlUzbHdtdEZ3Vnp4NFVTcUhDeVNSUDZSVWpINklQVzdiTkZmSkpjbng1VmgxbTlVQXBqRFFvT2V6N3B3NUUyOTZoNThSL2tyVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=533552663169)
+🔗 [Acessar Artefatos no Miro](https://miro.com/welcomeonboard/alZqcUtZeW8yQkI5aFlxUWpvSFFZNW1xQm5EUEtRS200VUcybVQwK29WbjdTM0tHNjBiS1hTZ0JndlUzbHdtdEZ3Vnp4NFVTcUhDeVNSUDZSVWpINklQVzdiTkZmSkpjbng1VmgxbTlVQXBKNFArTDFYaE9iZUJ5VVduRElkQ253VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=661045426750)
