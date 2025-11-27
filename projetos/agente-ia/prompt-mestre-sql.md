@@ -7,6 +7,8 @@ Use este Prompt Mestre para consolidar estudos:
 2. Inclua exemplos, erros comuns e alternativas.  
 3. Gere exercícios com gabarito.  
 4. Pergunte por contexto se necessário.
+5. 
+
 
 ## Estrutura
 - Contexto estudado: [INSERIR]  

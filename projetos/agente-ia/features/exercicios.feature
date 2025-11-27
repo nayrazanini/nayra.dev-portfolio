@@ -4,6 +4,6 @@ Feature: Gerar exercícios SQL
   Para praticar consultas e validar raciocínio
 
   Scenario: Gerar 3 exercícios sobre LEFT JOIN
-    Given o usuário solicita "3 exercícios sobre LEFT JOIN - nível intermediário"
-    When o agente gera os exercícios
-    Then cada exercício deve conter: enunciado, tabela(s) de exemplo e gabarito
+    Dado o usuário solicita "3 exercícios sobre LEFT JOIN - nível intermediário"
+    Quando o agente gera os exercícios
+    Então cada exercício deve conter: enunciado, tabela(s) de exemplo e gabarito

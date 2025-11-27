@@ -8,7 +8,7 @@
 
 ## 📘 Visão Geral do Projeto
 
-Este repositório apresenta um projeto completo pensado para demonstrar habilidades de **QA aplicadas a SQL**. O agente foi projetado para interpretar comandos naturais, analisar consultas SQL reais, gerar explicações detalhadas, criar exercícios, depurar scripts e, ao final, construir um **Prompt Mestre SQL** — ideia sugerida pelo Professor Marcelo Nogueira.
+Este repositório apresenta um projeto completo pensado para demonstrar habilidades de **QA aplicadas a SQL**. O agente foi projetado para interpretar comandos naturais, analisar consultas SQL reais, gerar explicações detalhadas, criar exercícios, depurar scripts e, ao final, construir um **Prompt Mestre SQL** (ideia sugerida pelo Professor Marcelo Nogueira).
 
 O objetivo é demonstrar competências em:
 - Engenharia de Requisitos
