@@ -1,0 +1,17 @@
+{
+  "name": "agente-ia-sql",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.4.2"
+  }
+}
